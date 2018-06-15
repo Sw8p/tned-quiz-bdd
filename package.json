@@ -1,0 +1,18 @@
+{
+  "name": "tned-quiz-bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tned-quiz/tned-quiz-bdd.git",
+  "author": "tned-quiz <karine@steerity.com>",
+  "license": "MIT",
+  "scripts": {
+        "start": "node index.js",
+        "watch": "nodemon -e js -w src index.js"
+      },
+  "dependencies": {
+    "mongoose": "^5.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
