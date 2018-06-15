@@ -6,10 +6,11 @@
   "author": "tned-quiz <karine@steerity.com>",
   "license": "MIT",
   "scripts": {
-        "start": "node index.js",
-        "watch": "nodemon -e js -w src index.js"
-      },
+    "start": "node index.js",
+    "watch": "nodemon -e js -w src index.js"
+  },
   "dependencies": {
+    "app-module-path": "^2.2.0",
     "mongoose": "^5.1.5"
   },
   "devDependencies": {
